@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio Itau</title>
+    <link rel="stylesheet" href="itau.css">
+	    <link rel="stylesheet" href="itau.js">
+		
+		<script async="" src="itau.js"></script>
+
+</head>
+
+<body>
+   
+
+    <main>
+        <br><br>
+        <h1>Cadastro Pessoal </h1>	
+         	
+		  <div class="noticia">
+            <div class="content">
+			<form action="/pagina-processa-dados-do-form" method="post">
+				<div>
+					<label for="nome">Nome:</label>
+					<input type="text" id="nome" />
+				</div>
+			
+				<div>
+					<label for="nome">Cpf:</label>
+					<input type="text" id="Cpf" />
+				</div>
+				<div>
+					<label for="nome">RG:</label>
+					<input type="text" id="Rg" />
+				</div>
+				
+				<div>
+					<label for="nome">Sexo:</label>
+					<input type="text" id="sexo" />
+				</div>
+				<div>
+					<label for="nome">Endereco:</label>
+					<input type="text" id="endereco" />
+				</div>
+				<div>
+					<label for="nome">numero:</label>
+					<input type="number" id="nome" />
+				</div>
+				<div>
+					<label for="nome">Bairro:</label>
+					<input type="text" id="bairro" />
+				</div>
+				<div>
+					<label for="nome">Cidade:</label>
+					<input type="text" id="cidade" />
+				</div>
+				<div>
+					<label for="nome">Estado:</label>
+					<input type="text" id="Estado" />
+				</div>
+				
+				<div>
+					<label for="email">Telefone Fixo:</label>
+					<input type="fone" id="telefone" />
+				</div>
+				<div>
+					 <input type="text" onblur="mascaraDeTelefone(this)" 
+          placeholder="9999-9999 ou 9999-99999" 
+          onfocus="tiraHifen(this)" />   
+
+
+		  
+
+				</div>
+			</form>
+            </div>
+        </div>	
+		
+    </main>
+
+
+    <footer></footer>
+</body>
+
+</html>
